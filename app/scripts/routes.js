@@ -911,6 +911,8 @@
             .when('/notifications', {
                 templateUrl: 'views/notification/notifications.html'
             })
+            .when('/selfservice/createuser/:clientId',{
+                templateUrl: 'views/selfservice/createuser.html'
             .when('/surveys',{
                 templateUrl: 'views/surveys/surveys.html'
             })
